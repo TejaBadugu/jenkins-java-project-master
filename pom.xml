@@ -52,13 +52,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://3.82.188.225:8081/repository/maven-snap/</url>
+		    <url>http://3.82.188.225:8081/repository/tej-snap/</url>
 		 </snapshotRepository>
-		
-		<repository>
+		<releaseRepository>
 		    <id>nexus</id>
-		    <url>http://3.82.188.225:8081/repository/maven-rele/</url>
-		</repository>
+		    <url>http://3.82.188.225:8081/repository/tej-rele/</url>
+		</releaseRepository>
   	</distributionManagement>
 	
 	<pluginRepositories>
