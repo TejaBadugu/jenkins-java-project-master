@@ -24,9 +24,11 @@ stages{
        sh  "mvn clean deploy"
          }
    }
-   
-
- 
+   stage('deployTomcat'){
+    steps{
+deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://44.208.22.127:8080/')], contextPath: 'qenv', war: '**/*.war'
+    }
+   }
 }
 
 }
