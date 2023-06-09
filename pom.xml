@@ -54,10 +54,10 @@
 		    <id>nexus</id>
 		    <url>http://3.82.188.225:8081/repository/tej-snap/</url>
 		 </snapshotRepository>
-		<releaseRepository>
+		<repository>
 		    <id>nexus</id>
 		    <url>http://3.82.188.225:8081/repository/tej-rele/</url>
-		</releaseRepository>
+		</repository>
   	</distributionManagement>
 	
 	<pluginRepositories>
